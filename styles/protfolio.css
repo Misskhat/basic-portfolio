@@ -1,0 +1,45 @@
+/* common share style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    color: #FFF;
+    border: 0;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 18px 35px;
+
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio-title{
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+    margin-right: 50px;
+}
