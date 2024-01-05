@@ -173,8 +173,8 @@ main section{
 
 .resume-item-title{
     color: #757575;
-font-size: 20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* footer style */
@@ -183,5 +183,15 @@ footer{
     display: flex;
     background-color: #FFF8F3;
     padding: 130px 230px;
-    margin-top: 100px                                                                    ;
+    margin-top: 100px;
+    gap: 100px;
 }
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 5px;
+    background: #FFF;
+    }
